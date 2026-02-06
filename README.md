@@ -47,7 +47,7 @@ pip install -r requirements.txt
 export GEMINI_API_KEY="your-key-here"  # Get one at https://aistudio.google.com/app/apikey
 
 # Run discovery
-python src/discovery.py --domain dunnlumber.com --company-name "Dunn Lumber"
+python src/discovery.py --domain acmeanvil.com --company-name "Acme Anvil Corporation"
 
 # Run revenue estimation
 python src/revenue.py --domain example.com --company-name "Example Corp"
@@ -185,17 +185,17 @@ python src/deep_analysis.py --youtube-url "URL" --output analysis --format both
 ```json
 {
   "executives_found": [
-    {"name": "John Smith", "title": "CEO", "key_quotes": ["quote1", "quote2"]}
+    {"name": "Wile E. Coyote", "title": "CEO", "key_quotes": ["If at first you don't succeed...", "We're pivoting to space anvils"]}
   ],
   "strategic_insights": [
-    {"topic": "expansion", "detail": "Planning 10 new locations", "confidence": "high"}
+    {"topic": "expansion", "detail": "Planning new warehouse near mesa cliff", "confidence": "high"}
   ],
-  "pain_points": ["inventory management", "legacy systems"],
+  "pain_points": ["product reliability", "customer injury lawsuits"],
   "outreach_angles": [
-    {"angle": "Tech modernization opportunity", "evidence": "Quote about legacy systems"}
+    {"angle": "Quality assurance opportunity", "evidence": "Quote about products backfiring"}
   ],
   "key_quotes": [
-    {"speaker": "Jane Doe", "title": "CFO", "quote": "We're investing heavily in..."}
+    {"speaker": "Foghorn Leghorn", "title": "Head of Sales", "quote": "I say, I say, we're investing heavily in..."}
   ]
 }
 ```
@@ -206,45 +206,49 @@ python src/deep_analysis.py --youtube-url "URL" --output analysis --format both
 
 ```
 ======================================================================
-COMPANY INTELLIGENCE REPORT: Dunn Lumber
-Domain: dunnlumber.com
+COMPANY INTELLIGENCE REPORT: Acme Anvil Corporation
+Domain: acmeanvil.com
 ======================================================================
 
 ## COMPANY OVERVIEW
 
-Dunn Lumber is a family-owned building material supplier based in Seattle,
-with nine locations. Founded in 1907, acquired by Spahn & Rose Lumber Co. in 2019.
+Acme Anvil Corporation is a leading manufacturer of anvils, giant magnets,
+and rocket-powered roller skates based in the Arizona desert. Founded in 1948,
+acquired by Road Runner Industries in 2022.
 
-## KEY EXECUTIVES (1)
+## KEY EXECUTIVES (3)
 
-  • Mike Dunn — CEO
+  • Wile E. Coyote — CEO, Super Genius
+  • Marvin the Martian — VP of Explosive Products
+  • Yosemite Sam — Head of Western Sales
 
-## STRATEGIC PRIORITIES (5)
+## STRATEGIC PRIORITIES (4)
 
-  1. Customer relationships
-  2. Quality materials
-  3. Expert advice
+  1. Product reliability improvements
+  2. Faster delivery to remote desert locations
+  3. Customer safety documentation
+  4. Expanding into space markets
 
 ## OWNERSHIP CHANGES (1)
 
-  • [2019-02-28] Acquisition: Spahn & Rose Lumber Co.
+  • [2022-06-15] Acquisition: Road Runner Industries
 
-## ACQUIRER INTELLIGENCE: Spahn & Rose Lumber Co.
+## ACQUIRER INTELLIGENCE: Road Runner Industries
 
-  Philosophy: Seeks partners that share their values and corporate culture...
+  Philosophy: Acquires companies that demonstrate persistence and innovative
+  problem-solving, regardless of past product failures...
 
-  Other acquisitions by this company (6):
-    • Dunn Lumber (2019-02-28)
-    • Moeller & Walter Lumber (2020-02)
-    • Metro Building Products (2021-08)
-    • Still Lumber (2022-08-01)
-    • City Lumber Co. (2023-09-12)
+  Other acquisitions by this company (4):
+    • Acme Anvil Corporation (2022-06-15)
+    • Desert Tunnel Supplies Inc. (2021-03)
+    • Fake Road Paint Co. (2020-11)
+    • Giant Rubber Band Warehouse (2023-02)
 
 ## STRATEGIC STATEMENTS (5)
 
-  [1] Relevance: 95/100 | Source: Dunn Lumber's History - YouTube
-      "At Dunn Lumber we believe trusting relationships are the key..."
-      → Outreach angle: Emphasizes relationship-building...
+  [1] Relevance: 95/100 | Source: Acme Corporate Strategy - YouTube
+      "At Acme we believe that if at first you don't succeed, try try again..."
+      → Outreach angle: Values persistence and iterative improvement...
 ```
 
 ---
