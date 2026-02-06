@@ -216,9 +216,10 @@ Acme Anvil Corporation is a leading manufacturer of anvils, giant magnets,
 and rocket-powered roller skates based in the Arizona desert. Founded in 1948,
 acquired by Road Runner Industries in 2022.
 
-## KEY EXECUTIVES (3)
+## KEY EXECUTIVES (4)
 
   • Wile E. Coyote — CEO, Super Genius
+  • Foghorn Leghorn — VP of Customer Relations
   • Marvin the Martian — VP of Explosive Products
   • Yosemite Sam — Head of Western Sales
 
